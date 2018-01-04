@@ -1,0 +1,22 @@
+{
+  "name": "tcresearch",
+  "version": "1.0.0",
+  "description": "Thaumcraft 5.2 Research Helper\r ==========",
+  "main": "tcresearch.js",
+  "scripts": {
+   "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fritzlolpro/tcresearch.git"
+  },
+  "author": "fritz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fritzlolpro/tcresearch/issues"
+  },
+  "homepage": "https://github.com/fritzlolpro/tcresearch#readme"
+}

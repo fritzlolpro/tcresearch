@@ -84,7 +84,7 @@ $(function(){
 		option.textContent = text;
 		return option;
 	}
-	
+
 	function formatAspectName(string)
 	{
 		//http://stackoverflow.com/a/1026087 Capitalize the first letter of string in JavaScript
@@ -160,7 +160,7 @@ $(function(){
 	$("#close_results").click(function(){
 		$(".result").dialog("close");
 	});
-	
+
 	function reset_aspects() {
 		aspects = $.extend([], version_dictionary[version]["base_aspects"]);
 		combinations = $.extend(true, {}, version_dictionary[version]["combinations"]);
@@ -256,3 +256,4 @@ $(function(){
 		return (el.hasClass("unavail")) ? 100 : 1;
 	}
 });
+ReactDOM.render(<App />, document.querySelector('#root'));

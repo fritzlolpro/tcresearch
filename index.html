@@ -2,6 +2,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Thaumcraft 5.2 Research Helper</title>
 	<script type="text/javascript" src="buckets-minified.js"></script>
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
@@ -21,6 +22,7 @@
 	</style>
 </head>
 <body>
+	<div id="root"></div>
 	<h2>Thaumcraft 5.2 Research Helper</h2>
 	<div id="combination_box"><div id="left"></div><span class="operator">+</span><div id="right"></div><span class="operator">=</span><div id="equals"></div></div>
 	<table>
@@ -35,7 +37,7 @@
 		<tr><td>To:</td><td><input type=hidden id="toSel"></input></td></tr>
 		<tr><td>Min. Steps:</td><td><input id="spinner" name="value" value="1" style="width:140px" /></td></tr>
 		<tr><td></td><td><input id="find_connection" type="button" value="Find Connection" /><input id="close_results" type="button" value="Close all results" /></td></tr>
-		<tr><td>Addons:</td><td id="addons"></td></tr> 
+		<tr><td>Addons:</td><td id="addons"></td></tr>
 		<tr><td>Available<br/>Aspects:</td><td><input type="button" id="sel_all" value="Select All Aspects"><input type="button" id="desel_all" value="Deselect All Aspects"><ul id="avail" class="aspectlist"></ul></td></tr>
 	</table>
 
